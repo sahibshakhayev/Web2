@@ -1,0 +1,62 @@
+ul.outer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+    background-color: #f0f0f0; /* Цвет фона для всего списка */
+  }
+
+  /* Стиль для внутреннего списка */
+  ul.inner {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Стиль для элементов внешнего списка */
+  li.outer {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: none;
+    text-align: left;
+    vertical-align: middle;
+    line-height: normal;
+    cursor: pointer; /* Меняем курсор на указатель при наведении на группу */
+  }
+
+  /* Стиль для элементов внутреннего списка */
+  li.inner {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 20px; /* Отступ слева для вложенных элементов */
+    margin-top: 5px; /* Отступ сверху для вложенных элементов */
+    margin-bottom: 5px; /* Отступ снизу для вложенных элементов */
+    border: none;
+    text-align: left;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  /* Стиль для ссылок */
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Стиль для флагов */
+  img.flag {
+    width: 25px; /* Уменьшаем размер флагов еще больше */
+    height: 16px; 
+    vertical-align: middle;
+  }
+
+  /* Стиль для иконки футбольного мяча */
+  img.ball {
+    width: 25px; /* Уменьшаем размер иконки */
+    height: 25px; 
+    vertical-align: middle;
+  }

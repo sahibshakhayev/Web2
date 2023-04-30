@@ -1,0 +1,38 @@
+* {
+font-family: sans-serif;
+color:#e7e5e2;
+font-weight: lighter;
+
+
+}
+
+
+ol {
+list-style: none;
+width: auto;
+padding: 25px;
+background-color:#ed9eae;
+counter-reset: count;
+}
+
+li {
+background-color: #b45a6b;
+counter-increment: count;
+margin: 10px;
+
+}
+
+
+li::before {
+content: counter(count)'.';
+background:#b45a6b ;
+margin: 15px;
+}
+
+span {
+display: inline-block;
+background-color:#9e354a ;
+padding:15px;
+
+
+}
